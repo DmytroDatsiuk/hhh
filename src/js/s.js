@@ -2,7 +2,7 @@ const ping = async () => {
   let start = Date.now();
 
   try {
-    await fetch('http://172.24.22.1');
+    await fetch('https://172.24.22.1');
   } catch (err) {}
 
   return Date.now() - start;
